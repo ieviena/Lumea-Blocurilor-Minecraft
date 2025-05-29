@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Minecraft - Lumea Blocurilor</title>
+    <link rel="icon" href="https://icon-library.com/images/minecraft-grass-block-icon/minecraft-grass-block-icon-6.jpg" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: url('https://wallpapercave.com/wp/wp2757874.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: rgba(23, 96, 23, 0.85);
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Press Start 2P', cursive;
+            margin: 0;
+            font-size: 26px;
+            color: #f0f0f0;
+            text-shadow: 2px 2px #000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 100, 0, 0.9);
+            padding: 15px 0;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s, transform 0.2s;
+        }
+
+        nav a:hover {
+            color: #003c00;
+            transform: scale(1.1);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            margin-top: 30px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            border-left: 6px solid #4CAF50;
+            padding-left: 10px;
+            font-size: 24px;
+        }
+
+        .section img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 15px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #000;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: rgba(34, 139, 34, 0.85);
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        a.email {
+            color: #90ee90;
+            text-decoration: underline;
+        }
+
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            margin-top: 15px;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #555;
+            text-align: left;
+        }
+
+        thead {
+            background-color: #4CAF50;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 16px;
+            }
+            nav a {
+                margin: 10px;
+                font-size: 14px;
+            }
+
+            th, td {
+                font-size: 14px;
+            }
+        }
+        .section img,
+        .section ul img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 15px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #000;
+            transition: transform 0.6s ease, opacity 0.6s ease;
+            opacity: 0.95;
+        }
+
+        .section img:hover,
+        .section ul img:hover {
+            transform: scale(1.05) rotate(1deg);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MINECRAFT - LUMEA BLOCURILOR</h1>
+</header>
+
+<nav>
+    <a href="#despre">Despre</a>
+    <a href="#blocks">Blocks</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#tabel">Tabel</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="despre" class="section">
+        <h2> Despre Minecraft</h2>
+        <p>Minecraft este un joc open-world creat de Mojang, unde jucătorii pot construi, mina și explora lumi infinite pline de aventuri, monștri și creativitate nelimitată.</p>
+        <p>Jocul este axat pe creativitate și construcție, permițând jucătorilor să construiască, folosind o multitudine de cuburi, într-o lume tridimensională. Printre celelalte activități din cadrul jocului se numără explorarea, adunarea resurselor, meșteșugul și construirea uneltelor, dar și lupta. Jocul dispune de unele moduri, printre care se numără Survival, Creative, Adventure și Spectator. În primul mod, jucătorii trebuie să obțină resursele de unii singuri, folosind resursele ca să avanseze progresiv, în timp ce în modul Creativ jucătorii au posibilitatea să se folosească de creativitatea lor prin intermediul unor resurse nelimitate. Modul Adventure, de dificultate ridicată, pune la dispoziție unele lumi create de alți jucători. Denumirea provine din limba engleză, unde mine înseamnă „mină” iar craft „meșteșug, meserie” sau „lucru de mână”.</p>
+        <img src="https://cdn.prod.website-files.com/6634a8f8dd9b2a63c9e6be83/6698d227d60aaf099c998415_465936.image0.jpeg" alt="Minecraft Copertă">
+        <p>Minecraft este un joc de tipul survival și nu are nici nivele, nici misiuni specifice pe care jucătorii trebuie să le finalizeze, ceea ce oferă jucătorilor o mare libertate. Totuși, jocul dispune de câteva realizări (advancements) disponibile. Se poate alege în funcție de dorința jucătorului varianta single-player, sau multiplayer. Modul de joc de bază se învârte în jurul construcției și plasării de blocuri. Lumea jocului este în esență, alcătuită din blocuri cubice aranjate într-un model de grilă fixă, care reprezintă diferite materiale, cum ar fi nisip, piatră, minereuri diverse, apă, trunchiuri de copac, etc. În timp ce jucătorii se pot deplasa liber în întreaga lume, obiectele și articolele pot fi plasate numai la anumite puncte fixe în raport cu grila. Jucătorii pot aduna aceste blocuri materiale și să le plaseze în alte locuri, astfel că se deschide posibilitatea construirii de tipuri variate de clădiri.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/ro/c/c9/Minecraft_Mobs.png" alt="Minecraft Copertă">
+        <p>De-a lungul jocului, în calea jucătorului apar diferite personaje, printre care se numără animale, săteni sau creaturi ostile (monștri). Unele animale inofensive, precum sunt vacile, oile, porcii sau găinile, pot fi vânate pentru a face rost de materiale, iar acestea pot să se înmulțească în timpul zilei. Spre deosebire de acestea, creaturile ostile, cum sunt păianjenii uriași, scheletele vii sau zombii, se înmulțesc în timpul nopții sau în zone întunecoase, cum sunt peșterile. În cultura populară, unele creaturi din Minecraft au primit denumiri distincte, cum de exemplu este Creeper, o creatură verde care explodează și se furișează lângă jucător; de asemenea este și Enderman, o creatură care se poate teleporta și poate ridica blocuri.</p>
+    </section>
+
+    <section id="blocks" class="section">
+        <h2> Blocks</h2>
+        <ul>
+            <li><strong><img src="https://preview.redd.it/nj58l3zsuoq91.jpg?auto=webp&s=761be32c4db065f9eb1ea312e45e8eb1390e52dc" alt="Minecraft Blocks"></li>
+            <li><strong><img src="https://i.redd.it/every-block-and-item-added-since-minecrafts-official-v0-z0d16vsztt391.png?width=704&format=png&auto=webp&s=bf454fb9644cb053976dc69760a8b384aefdfa98" alt="Minecraft Blocks"></li>
+            <li><strong><img src="https://i.redd.it/every-block-and-item-added-since-minecrafts-official-v0-nxtpct2ztt391.png?width=704&format=png&auto=webp&s=d8684688d3181b03bdbdc82b5648f89dbad85d72" alt="Minecraft Blocks">.</li>
+            <li><strong><img src="https://i.redd.it/qt33xq2x96181.png" alt="Minecraft Blocks"></li>
+            <li><strong><img src="https://external-preview.redd.it/kW4Fn4LFYmx8zSxFWP92K6HlhbL9Fsct1515uXfXqZ8.png?width=1080&crop=smart&auto=webp&s=76a2b0a255f1220cfd5d787f1dcbc2e69627a1ef" alt="Minecraft Blocks"></li>
+            </ul>
+    </section>
+
+    <section id="galerie" class="section">
+        <h2> Galerie</h2>
+        <img src="https://i.pinimg.com/736x/c8/90/9f/c8909f614a2cad0fde8182625fbb8bd9.jpg" alt="Minecraft Natură">
+        <img src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2023/11/minecraft-castle-timelapse-large.jpg" alt="Minecraft Castel">
+        <img src="https://images.thedirect.com/media/article_full/minecraft-movie-rating.jpg" alt="Minecraft Movie">
+        <img src="https://cdn.britannica.com/62/200262-050-AFE1BDFF/Players-Minecraft-worlds-way-blocks-roaming-characters.jpg" alt="Minecraft Temple">
+        <img src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2023/04/minecraft-mods-miny-golems.jpg" alt="Minecraft Mod">
+        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/09/minecraft-pale-gardens-biome.jpg" alt="Minecraft New Biome">
+        
+        <img src="https://static.fanbyte.com/uploads/2024/04/Minecraft-farm-ideas.jpg" alt="Minecraft Farm">
+        <img src="https://www.dexerto.com/cdn-image/wp-content/uploads/2024/03/13/cherry-blossom-house-minecraft-1024x576.jpg?width=1200&quality=75&format=auto" alt="Minecraft House">
+        <img src="https://pbs.twimg.com/media/CKsDQ0cUEAA6guR.png:large" alt="Minecraft Peisage">
+    </section>
+
+    <section id="tabel" class="section">
+        <h2> Compară Edițiile Minecraft</h2>
+        <div style="overflow-x:auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Caracteristică</th>
+                        <th>Java Edition</th>
+                        <th>Bedrock Edition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Platformă</td>
+                        <td>PC / Linux / Mac</td>
+                        <td>PC / Console / Mobil</td>
+                    </tr>
+                    <tr>
+                        <td>Moduri</td>
+                        <td>Suport complet</td>
+                        <td>Limitat</td>
+                    </tr>
+                    <tr>
+                        <td>Redstone</td>
+                        <td>Precizie mare</td>
+                        <td>Ușor diferit</td>
+                    </tr>
+                    <tr>
+                        <td>Crossplay</td>
+                        <td>Doar Java</td>
+                        <td>Între platforme</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2> Contact</h2>
+        <p>Dacă vrei să ne scrii, trimite un e-mail la: <a class="email" href="mailto:contact@minecraftfan.ro">contact@minecraftfan.ro</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Minecraft Fan Page. Toate drepturile rezervate.</p>
+</footer>
+
+</body>
+</html>
